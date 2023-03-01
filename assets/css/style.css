@@ -28,7 +28,7 @@ body {
 }
 
 #menu {
-    font-size: 110%;
+    font-weight: 600;
     letter-spacing: 2px;
     background-color: #e0ece4;
     margin-right: 20px;
@@ -84,3 +84,29 @@ body {
 
     position: absolute;
 }
+
+/* Info section */
+
+#info-section {
+    height: 600px;
+    margin-top: 30px;
+    background-color: #e0ece4;
+}
+
+#info-left {
+    width: 50%;
+    float: left;
+    padding-top: 30px;       
+}
+
+#info-right {
+    width: 50%;
+    float: right;
+    padding-top: 30px;
+    
+}
+img {
+    height: 100%;
+}
+
+    
