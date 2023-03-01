@@ -9,4 +9,37 @@
 body {
     font-family: Poppins, sans-serif;
     font-weight: 200;
+    color: #3a3b3b;
+}
+
+/* logo and navigation */
+
+#logo {
+    font-family: "Montserrat Alternates", sans-serif;
+    letter-spacing: 2px;
+    color:#3a3b3b;
+    font-size: 250%;
+    float: left;
+
+}
+
+#menu, #logo{
+    line-height: 75px;
+}
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    display: flex;                /* to get navigation items in desired order; used hints from stackoverflow.com, w3schools.com and learntheweb.courses*/
+    flex-direction: row;
+    float: right; 
+}
+
+#menu li {
+    list-style-type: none;
+    margin-right: 30px;
+} 
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
 }
