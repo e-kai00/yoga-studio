@@ -32,6 +32,8 @@ body {
     display: flex;                /* to get navigation items in desired order; used hints from stackoverflow.com, w3schools.com and learntheweb.courses*/
     flex-direction: row;
     float: right; 
+    background: #e0ece4;
+    padding-left: 25px;
 }
 
 #menu li {
@@ -42,4 +44,12 @@ body {
 #menu a {
     text-decoration: none;
     color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3b3b;
+}
+
+.active {
+    border-bottom: 1px solid #3a3b3b;
 }
