@@ -18,7 +18,8 @@ body {
     font-family: "Montserrat Alternates", sans-serif;
     letter-spacing: 2px;
     color:#3a3b3b;
-    font-size: 250%;
+    font-size: 220%;
+    text-transform: uppercase;
     float: left;
     margin-left: 20px;
 }
@@ -139,11 +140,13 @@ body {
     width: 400px;
     height: 300px;
     margin-left: 20px;
+    
 }
 
 .retreat-text {
     width: 80%;
     text-align: justify;    
+    
 }
 .retreat-text h2 {
     text-align: center;
@@ -153,7 +156,39 @@ body {
     font-family: Kalam, sans-serif;
     font-size: 90%;
     text-align: center;
-
 }
 
-    
+/* footer */
+
+footer {
+    height: 150px;
+    background-color: #e0ece4;    
+    text-align: center;
+    line-height: 45px;
+}
+  
+footer hr {
+    border-top: 1px solid #3a3b3b;
+    width: 5%;
+    margin: auto;
+}
+
+footer p {
+    font-family: Kalam, sans-serif;   
+    font-size: 90%;     
+}
+
+footer i {
+    margin-left: 10px;
+}
+   
+footer li {
+    display: inline;
+}
+
+#social-media i {
+    font-size: 150%;
+    color: #3a3b3b;
+    margin: 1% 2%;
+    padding: 0;
+}
