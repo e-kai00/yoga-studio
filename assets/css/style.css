@@ -6,6 +6,10 @@
     border: none;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Poppins, sans-serif;
     font-weight: 200;
@@ -86,12 +90,11 @@ body {
     position: absolute;
 }
 
-/* Info section */
+/* Main info section */
 
 #info-section {
     height: 600px;
     margin-top: 30px ;
-       
 }
 
 #info-left {
@@ -130,10 +133,15 @@ body {
 
 /* Past events section */
 
+#events-section h2 {
+    text-align: center;
+    font-size: 200%;
+    padding-bottom: 50px;
+}
+
 .container-retreat {
     width: 60%;
-    float: right;
-    
+    float: right;       
 }
 
 .retreat-photo {
@@ -148,11 +156,11 @@ body {
     text-align: justify;    
     
 }
-.retreat-text h2 {
+.retreat-text h3 {
     text-align: center;
 }
 
-.retreat-text h3 {
+.retreat-text h4 {
     font-family: Kalam, sans-serif;
     font-size: 90%;
     text-align: center;
@@ -161,7 +169,9 @@ body {
 /* footer */
 
 footer {
-    height: 150px;
+    height: 100%;
+    margin-top: 50px;
+    padding: 20px 0;
     background-color: #e0ece4;    
     text-align: center;
     line-height: 45px;
