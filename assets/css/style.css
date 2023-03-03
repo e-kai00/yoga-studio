@@ -199,6 +199,8 @@ footer li {
 
 /* About page */
 
+/* Instructors */
+
 #instrcutors {
     clear: both;
 }
@@ -224,10 +226,34 @@ footer li {
     margin-left: 40px;
 }
 
+/* Studio image */
+
 #studio-pic {
     width: 900px;
     height: 300px;
     display:block;
     margin: 0 auto;
     border-radius: 5px;
+}
+
+/* Schedule and prices section */
+
+#schedule-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#schedule-table th, #schedule-table td {
+    border-bottom: 1px solid #3a3b3b;
+}
+ 
+#schedule-table th {
+    background-color: #e0ece4;
+}
+
+#schedule-table td {
+    padding: 0 9px;
+    font-size: 90%;
+    
 }
