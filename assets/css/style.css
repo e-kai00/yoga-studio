@@ -244,6 +244,8 @@ footer li {
     justify-content: center;
 }
 
+/* schedule */
+
 #schedule-table th, #schedule-table td {
     border-bottom: 1px solid #3a3b3b;
 }
@@ -254,6 +256,12 @@ footer li {
 
 #schedule-table td {
     padding: 0 9px;
+    font-size: 90%;    
+}
+
+/* prices */
+
+#price-table td {
+    border-bottom: 1px solid #3a3b3b;
     font-size: 90%;
-    
 }
