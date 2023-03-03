@@ -223,3 +223,11 @@ footer li {
     margin: 10px;
     margin-left: 40px;
 }
+
+#studio-pic {
+    width: 900px;
+    height: 300px;
+    display:block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
