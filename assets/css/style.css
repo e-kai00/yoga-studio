@@ -284,6 +284,15 @@ footer li {
     justify-content: space-around;
 }
 
+#address {
+    line-height: 25px;
+    font-size: 90%;
+}
+
+#address h2 {
+    margin-bottom: 9px;
+}
+
 #input-container {
     display: flex;
     flex-direction: row;
