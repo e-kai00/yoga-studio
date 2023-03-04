@@ -274,3 +274,62 @@ footer li {
 }
 
 /* Contact page */
+
+#address-form {
+    clear: both;
+    margin-left: 20px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-input {
+    padding: 12px;
+    border: 1px solid #3a3b3b;
+    border-radius: 5px;
+    
+}
+
+#input-subject {
+    padding: 12px;
+    margin-top: 9px;
+    width: 100%;
+    border: 1px solid #3a3b3b;
+    border-radius: 5px;
+}
+
+#input-message{
+    margin-top: 9px;
+    padding: 12px;
+    border: 1px solid #3a3b3b;
+    border-radius: 5px;
+}
+
+#send-button {
+    margin: 9px 0;
+    border: 1px solid #3a3b3b;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    background: inherit;
+    color: #3a3b3b;
+    float: right;    
+}
+
+#send-button:hover {
+    background-color: #3a3b3b;
+    color: #fafafa;
+}
+
+#google-map {
+    width: 100%;
+    height: 450;
+    background-color: red;
+}

@@ -28,27 +28,29 @@
 
     <section>
         <div id="address-form">
-            <div>
+            <div id="address">
                 <h2>Get in touch!</h2>
                 <p>Find us at our NYC studio location below</p>
                 <p>address</p>
                 <p>phone</p>
                 <p>email</p>
             </div>
-            <div>
+            <div id="form">
                 <form action="#" method="#">
-                    <input type="text" name="full-name" required placeholder="You full name">
-                    <input type="email" name="email" required placeholder="E-mail address">
+                    <div id="input-container">
+                        <input type="text" name="full-name" required placeholder="You full name" class="text-input">
+                        <input type="email" name="email" required placeholder="E-mail address" class="text-input">
+                    </div>
                     <br>
-                    <input type="text" name="subject" placeholder="Subject">
+                    <input type="text" name="subject" placeholder="Subject" id="input-subject">
                     <br>
-                    <textarea placeholder="Drop us a few lines"></textarea>
+                    <textarea placeholder="Drop us a few lines" cols="50" rows="10" id="input-message"></textarea>
                     <br>
-                    <input type="submit" value="Send message">
+                    <input type="submit" value="Send message" id="send-button">
                 </form>
             </div>
         </div>
-        <div>
+        <div id="google-map">
             <iframe src="#" title="Google map"></iframe>
         </div>
     </section>
