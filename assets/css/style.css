@@ -37,15 +37,15 @@ body {
     letter-spacing: 2px;
     background-color: #e0ece4;
     margin-right: 20px;
-    width: 30%;
+    padding: 0 20px;
     float: right;
     text-align: center;    
 }
 
 #menu li {
     list-style-type: none;
-    margin-right: 30px;
-    display: inline-block;    
+    margin: 0 10px;
+    display: inline-block;        
 } 
 
 #menu a {
@@ -68,13 +68,14 @@ body {
     height: 400px;
     width: 100%;
     overflow: hidden;
-    position: relative;
+    position: relative;        
 }
+
 #hero-image {
     height: 400px;
     width: 100%;
-    background: url('../images/hero-img1.jpg') no-repeat bottom;
-}
+    background: url('../images/hero-img1.jpg') no-repeat bottom;    
+}  
 
 #cover-text {
     font-family: Kalam, sans-serif;
@@ -82,25 +83,25 @@ body {
     text-align: center;      
         
     bottom: 10px;
-    right: 150px;
+    left: 100px;
 
     width: 400px;
     height: 200px;
 
     position: absolute;
+    
 }
 
 /* Main info section */
 
 #info-section {
-    height: 600px;
-    margin-top: 30px ;
+    height: 500px;
+    margin-top: 30px ;    
 }
 
 #info-left {
     width: 50%;
-    height:400px;
-    padding-bottom: 30px;
+    height:450px;    
     float: left;
     background-color: #e0ece4;
     
@@ -108,8 +109,7 @@ body {
 
 #info-right {
     width: 50%;
-    height: 400px;
-    padding-bottom: 30px;
+    height: 450px;    
     float: right;
     background: url('../images/yoga-class.jpg') no-repeat;       
 }
@@ -117,10 +117,11 @@ body {
 #info-text {
     width: 70%;
     margin: 0 auto;
+    padding-bottom: 10px;
     text-align: center;
 }
 
-#info-text h2 {
+#info-text h3 {
     padding-top: 20px;
 }
 
@@ -132,6 +133,10 @@ body {
 
 /* Past events section */
 
+#events-section {
+    height: 700px;
+    margin: 50px 0;
+}
 
 .container-retreat {
     width: 60%;
@@ -160,14 +165,14 @@ body {
     text-align: center;
 }
 
-/* footer */
+/* Footer */
 
 footer {
-    height: 100%;    
+    height: 150px;    
     padding: 20px 0;
     background-color: #e0ece4;    
-    text-align: center;
-    line-height: 45px;
+   /*  text-align: center;
+    line-height: 45px; */
 }
   
 footer hr {
@@ -329,6 +334,7 @@ footer li {
     border: 1px solid #3a3b3b;
     border-radius: 5px;
     padding: 10px 20px;
+    margin-bottom: 30px;
     text-align: center;
     background: inherit;
     color: #3a3b3b;
@@ -344,8 +350,7 @@ footer li {
 
 #thanks {
     padding: 80px 0;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 #thanks h2 {
@@ -363,7 +368,6 @@ footer li {
     margin: 30px 0;    
 }
 
-
 #back-home a {
     text-decoration: none;
     padding: 15px 25px;
@@ -371,4 +375,52 @@ footer li {
     background-color: #e0ece4;
     border: 1px solid #3a3b3b;
     border-radius: 5px;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1200px) {
+    .retreat-text {
+        width: 100%;
+        text-align: justify;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 20px;        
+    }
+
+    #info-section {
+        height: 650px;
+    }
+     
+    #info-left, #info-right {
+        height: 600px;
+    }
+
+    /* past events */
+
+    #events-section {
+        height: 1000px;
+    }
+
+    .container-retreat {
+        width: 55%; 
+        padding: 10px;
+    }
+
+    .retreat-photo {
+        margin-top: 50px;
+    }
+
+    #schedule-price {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }    
 }
