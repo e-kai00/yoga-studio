@@ -168,11 +168,11 @@ body {
 /* Footer */
 
 footer {
-    height: 150px;    
+    height: 200px;    
     padding: 20px 0;
     background-color: #e0ece4;    
-   /*  text-align: center;
-    line-height: 45px; */
+    text-align: center;
+    line-height: 45px; 
 }
   
 footer hr {
@@ -423,4 +423,39 @@ footer li {
         justify-content: center;
         align-items: center;
     }    
+}
+
+@media screen and (max-width: 960px) {
+    
+    #info-right {
+        background: url('../images/yoga-class.jpg') no-repeat center center;       
+    }
+    
+    #events-section {
+        height: 1080px;
+    }
+
+    .container-retreat {
+        width: 50%; 
+        padding: 10px;
+        
+    }
+
+    .event-info {
+        height: 450px;
+    }
+    .retreat-photo {
+        margin-top: 60px;
+        width: 300px;
+        height: 200px;
+    }
+
+    #schedule-price {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }    
+
+    @media screen and (max-width: 770px)
 }
