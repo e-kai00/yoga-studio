@@ -379,83 +379,30 @@ footer li {
 
 /* Media queries */
 
-@media screen and (max-width: 1200px) {
-    .retreat-text {
-        width: 100%;
-        text-align: justify;
-        padding: 0 10px;
-    }
-}
-
-@media screen and (max-width: 1080px) {
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 20px;        
-    }
-
-    #info-section {
-        height: 650px;
-    }
-     
-    #info-left, #info-right {
-        height: 600px;
-    }
-
-    /* past events */
-
-    #events-section {
-        height: 1000px;
-    }
-
-    .container-retreat {
-        width: 55%; 
-        padding: 10px;
-    }
-
-    .retreat-photo {
-        margin-top: 50px;
-    }
-
-    #schedule-price {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }    
-}
-
-@media screen and (max-width: 960px) {
-    
-    #info-right {
-        background: url('../images/yoga-class.jpg') no-repeat center center;       
-    }
-    
-    #events-section {
-        height: 1080px;
-    }
-
-    .container-retreat {
-        width: 50%; 
-        padding: 10px;
+@media screen and (min-width: 360px) {
         
+    #logo {
+        font-size: 150%;
+        line-height: 55px;
+        margin-left: 5px;
+        margin-top: 10px;
     }
 
-    .event-info {
-        height: 450px;
-    }
-    .retreat-photo {
-        margin-top: 60px;
-        width: 300px;
-        height: 200px;
+    #menu {        
+        background: none;
+        line-height: 55px;
+        margin-right: 5px;
+        padding: 0;
     }
 
-    #schedule-price {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }    
+    #cover-text {
+        left: 0;
+        margin-left: 10px;
+        width: 250px;
+        bottom: 70px;
+    }
 
-    @media screen and (max-width: 770px)
+        
 }
+
+    /* @media screen and (max-width: 775px) */
