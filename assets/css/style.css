@@ -483,4 +483,28 @@ footer li {
     #schedule-price th,  #schedule-price td {
         font-size: 80%;
     }
+
+    /* contat page */
+
+    #address-form {
+        flex-direction: column;
+        margin: 0 10px;
+    }   
+
+    #address {
+        margin-bottom: 30px;
+    }
+   
+    #input-container {
+        flex-direction: column;
+        
+    }
+   
+    .text-input {
+        margin-top: 9px;
+    }
+
+    #form textarea {
+        width: 100%;
+    }
 }
