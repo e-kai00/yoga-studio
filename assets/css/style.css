@@ -381,7 +381,7 @@ footer li {
 
 /* Media queries */
 
-@media screen and (min-width: 360px) {
+@media screen and (max-width: 410px) {
 
     #logo {
         font-size: 150%;
@@ -437,7 +437,7 @@ footer li {
     /* events */
 
     #events-section {
-        height: 1800px;
+        height: 1900px;
     }
 
     .event-info {
