@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Montserrat+Alternates&family=Poppins:wght@200&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -21,14 +21,15 @@ body {
 #logo {
     font-family: "Montserrat Alternates", sans-serif;
     letter-spacing: 2px;
-    color:#3a3b3b;
+    color: #3a3b3b;
     font-size: 220%;
     text-transform: uppercase;
     float: left;
     margin-left: 20px;
 }
 
-#menu, #logo{
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -39,19 +40,19 @@ body {
     margin-right: 20px;
     padding: 0 20px;
     float: right;
-    text-align: center;    
+    text-align: center;
 }
 
 #menu li {
     list-style-type: none;
     margin: 0 10px;
-    display: inline-block;        
-} 
+    display: inline-block;
+}
 
 #menu a {
     text-decoration: none;
     color: inherit;
-       
+
 }
 
 #menu a:hover {
@@ -68,20 +69,20 @@ body {
     height: 400px;
     width: 100%;
     overflow: hidden;
-    position: relative;        
+    position: relative;
 }
 
 #hero-image {
     height: 400px;
     width: 100%;
-    background: url('../images/hero-img1.jpg') no-repeat bottom;    
-}  
+    background: url('../images/hero-img1.jpg') no-repeat bottom;
+}
 
 #cover-text {
     font-family: Kalam, sans-serif;
     font-size: 90%;
-    text-align: center;      
-        
+    text-align: center;
+
     bottom: 10px;
     left: 100px;
 
@@ -89,29 +90,29 @@ body {
     height: 200px;
 
     position: absolute;
-    
+
 }
 
 /* Main info section */
 
 #info-section {
     height: 500px;
-    margin-top: 30px ;    
+    margin-top: 30px;
 }
 
 #info-left {
     width: 50%;
-    height:450px;    
+    height: 450px;
     float: left;
     background-color: #e0ece4;
-    
+
 }
 
 #info-right {
     width: 50%;
-    height: 450px;    
+    height: 450px;
     float: right;
-    background: url('../images/yoga-class.jpg') no-repeat;       
+    background: url('../images/yoga-class.jpg') no-repeat;
 }
 
 #info-text {
@@ -140,19 +141,19 @@ body {
 
 .container-retreat {
     width: 60%;
-    float: right;       
+    float: right;
 }
 
 .retreat-photo {
     width: 400px;
     height: 300px;
     margin-left: 20px;
-    
+
 }
 
 .retreat-text {
     width: 80%;
-    text-align: justify;       
+    text-align: justify;
 }
 
 .retreat-text h3 {
@@ -168,13 +169,13 @@ body {
 /* Footer */
 
 footer {
-    height: 200px;    
+    height: 200px;
     padding: 20px 0;
-    background-color: #e0ece4;    
+    background-color: #e0ece4;
     text-align: center;
-    line-height: 45px; 
+    line-height: 45px;
 }
-  
+
 footer hr {
     border-top: 1px solid #3a3b3b;
     width: 5%;
@@ -182,14 +183,14 @@ footer hr {
 }
 
 footer p {
-    font-family: Kalam, sans-serif;   
-    font-size: 90%;     
+    font-family: Kalam, sans-serif;
+    font-size: 90%;
 }
 
 footer i {
     margin-left: 10px;
 }
-   
+
 footer li {
     display: inline;
 }
@@ -210,17 +211,17 @@ footer li {
 }
 
 .teacher {
-    display: flex;  
-    justify-content: flex-start;  
+    display: flex;
+    justify-content: flex-start;
     margin-left: 20px;
-    
+
 }
 
 .teacher-photo {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    
+
 }
 
 .teacher-text {
@@ -235,7 +236,7 @@ footer li {
 #studio-pic {
     width: 900px;
     height: 300px;
-    display:block;
+    display: block;
     margin: 0 auto;
     border-radius: 5px;
 }
@@ -257,17 +258,18 @@ footer li {
 
 /* schedule */
 
-#schedule-table th, #schedule-table td {
+#schedule-table th,
+#schedule-table td {
     border-bottom: 1px solid #3a3b3b;
 }
- 
+
 #schedule-table th {
     background-color: #e0ece4;
 }
 
 #schedule-table td {
     padding: 0 9px;
-    font-size: 90%;    
+    font-size: 90%;
 }
 
 /* prices */
@@ -311,7 +313,7 @@ footer li {
     padding: 12px;
     border: 1px solid #3a3b3b;
     border-radius: 5px;
-    
+
 }
 
 #input-subject {
@@ -322,7 +324,7 @@ footer li {
     border-radius: 5px;
 }
 
-#input-message{
+#input-message {
     margin-top: 9px;
     padding: 12px;
     border: 1px solid #3a3b3b;
@@ -338,7 +340,7 @@ footer li {
     text-align: center;
     background: inherit;
     color: #3a3b3b;
-    float: right;    
+    float: right;
 }
 
 #send-button:hover {
@@ -350,7 +352,7 @@ footer li {
 
 #thanks {
     padding: 80px 0;
-    text-align: center;    
+    text-align: center;
 }
 
 #thanks h2 {
@@ -365,7 +367,7 @@ footer li {
 #thanks i {
     color: #3a3b3b;
     font-size: 800%;
-    margin: 30px 0;    
+    margin: 30px 0;
 }
 
 #back-home a {
@@ -380,7 +382,7 @@ footer li {
 /* Media queries */
 
 @media screen and (min-width: 360px) {
-        
+
     #logo {
         font-size: 150%;
         line-height: 55px;
@@ -388,7 +390,7 @@ footer li {
         margin-top: 10px;
     }
 
-    #menu {        
+    #menu {
         background: none;
         line-height: 55px;
         margin-right: 5px;
@@ -407,7 +409,7 @@ footer li {
     #info-section {
         height: fit-content;
     }
-   
+
     .section-headings {
         font-size: 150%;
         padding: 20px 0;
@@ -415,28 +417,29 @@ footer li {
 
     #info-left {
         width: 100%;
-        height:fit-content;    
-        background-color: #e0ece4;        
+        height: fit-content;
+        background-color: #e0ece4;
     }
-    
+
     #info-text {
         width: 90%;
         text-align: justify;
     }
-     
+
     #info-text h3 {
         text-align: center;
     }
 
     #info-right {
-        display: none; 
+        display: none;
     }
-       /* events */ 
+
+    /* events */
 
     #events-section {
         height: 1800px;
     }
-     
+
     .event-info {
         display: block;
         height: 600px;
@@ -447,26 +450,37 @@ footer li {
     .container-retreat {
         width: 100%;
         clear: both;
-        
+
     }
+
     .retreat-text {
         width: 100%;
         text-align: justify;
-        padding: 0 10px;        
+        padding: 0 10px;
     }
 
     .retreat-photo {
         width: 300px;
         height: 200px;
-        
-       
-        
+    }    
 
-        
+        /* about page */
+
+    .teacher {
+        flex-direction: column;
+        margin: 20% 10px;
     }
 
+    .teacher-text {
+        width: 95%;
+        padding-right: 5%;        
+    }
 
+    #schedule-price {
+        flex-direction: column;
+    }
 
+    #schedule-price th,  #schedule-price td {
+        font-size: 80%;
+    }
 }
-
- 
