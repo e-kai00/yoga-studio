@@ -117,7 +117,7 @@ body {
 #info-text {
     width: 70%;
     margin: 0 auto;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -402,7 +402,71 @@ footer li {
         bottom: 70px;
     }
 
+    /* sections: info and past events */
+
+    #info-section {
+        height: fit-content;
+    }
+   
+    .section-headings {
+        font-size: 150%;
+        padding: 20px 0;
+    }
+
+    #info-left {
+        width: 100%;
+        height:fit-content;    
+        background-color: #e0ece4;        
+    }
+    
+    #info-text {
+        width: 90%;
+        text-align: justify;
+    }
+     
+    #info-text h3 {
+        text-align: center;
+    }
+
+    #info-right {
+        display: none; 
+    }
+       /* events */ 
+
+    #events-section {
+        height: 1800px;
+    }
+     
+    .event-info {
+        display: block;
+        height: 600px;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .container-retreat {
+        width: 100%;
+        clear: both;
         
+    }
+    .retreat-text {
+        width: 100%;
+        text-align: justify;
+        padding: 0 10px;        
+    }
+
+    .retreat-photo {
+        width: 300px;
+        height: 200px;
+        
+       
+        
+
+        
+    }
+
+
+
 }
 
-    /* @media screen and (max-width: 775px) */
+ 
