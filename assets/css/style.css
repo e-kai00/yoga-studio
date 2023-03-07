@@ -96,8 +96,9 @@ body {
 /* Main info section */
 
 #info-section {
-    height: 500px;
+    height: 600px; 
     margin-top: 30px;
+    
 }
 
 #info-left {
@@ -135,32 +136,32 @@ body {
 /* Past events section */
 
 #events-section {
-    height: 700px;
-    margin: 50px 0;
+    height: 800px;
+    margin-top: 30px;
 }
 
-.container-retreat {
-    width: 60%;
-    float: right;
+.event-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
 }
 
-.retreat-photo {
+.event-photo {
     width: 400px;
     height: 300px;
-    margin-left: 20px;
-
 }
 
-.retreat-text {
-    width: 80%;
-    text-align: justify;
+.event-text  {
+    width: 60%;
+    height: fit-content;    
 }
 
-.retreat-text h3 {
+.event-text h3 {
     text-align: center;
 }
 
-.retreat-text h4 {
+.event-text h4 {
     font-family: Kalam, sans-serif;
     font-size: 90%;
     text-align: center;
