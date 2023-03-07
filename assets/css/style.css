@@ -69,13 +69,13 @@ body {
     height: 400px;
     width: 100%;
     overflow: hidden;
-    position: relative;
+    position: relative;    
 }
 
 #hero-image {
     height: 400px;
     width: 100%;
-    background: url('../images/hero-img1.jpg') no-repeat bottom;
+    background: url('../images/hero-img1.jpg') no-repeat bottom;    
 }
 
 #cover-text {
@@ -97,7 +97,7 @@ body {
 
 #info-section {
     height: 600px; 
-    margin-top: 30px;
+    margin-top: 50px;
     
 }
 
@@ -217,13 +217,14 @@ footer li {
 .teacher {
     display: flex;
     justify-content: flex-start;
-    margin-left: 20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
 
 }
 
 .teacher-photo {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
 
 }
@@ -232,7 +233,7 @@ footer li {
     width: 60%;
     text-align: justify;
     margin: 10px;
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
 /* Studio image */
@@ -553,6 +554,7 @@ footer li {
 
     #address {
         margin-bottom: 30px;
+        margin-left: 20px;
     }
    
     #input-container {
@@ -570,6 +572,23 @@ footer li {
 
 } 
 
+@media screen and (max-width: 605px) {
+
+    #info-section {
+        height: 550px;
+    }
+    #info-right {
+        display: none;
+    }
+
+    #info-left {
+        width: 100%;
+        height: fit-content;
+    }
+
+}
+
+
 @media screen and (max-width: 460px) {
 
     #logo {
@@ -586,7 +605,7 @@ footer li {
     }
 
     #menu li {
-        margin: 0 20px;
+        margin: 0 10px;
     }
 
     #menu a {
@@ -603,7 +622,7 @@ footer li {
     /* sections: info and past events */
 
     #info-section {
-        height: 500px;
+        height: 600px;
     }
 
     .section-headings {
@@ -633,8 +652,8 @@ footer li {
     /* events */
 
     #events-section {
-        height:1500px;
-        margin-top: 30px;
+        height:1600px;
+        margin-top: 0;
     }
 
     .event-info {
@@ -658,16 +677,22 @@ footer li {
 
         /* about page */
 
+    
     .teacher {
         flex-direction: column;
-        margin: 20% 10px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        
     }
 
     .teacher-text {
-        width: 95%;
+        width: 100%;
         padding-right: 5%;        
     }
     
+     
 
     #schedule-price {
         flex-direction: column;
