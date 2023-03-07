@@ -576,7 +576,19 @@ footer li {
         margin-top: 20px;
     }        
 
+    /* about page */
         
+    #schedule-price {
+        flex-direction: column;
+        
+    }
+
+   
+
+   #price, #schedule {
+    align-self: center;
+   }
+
     /* contact page */
 
     #schedule-price {
