@@ -582,21 +582,38 @@ footer li {
         flex-direction: column;
         
     }
-
    
-
    #price, #schedule {
     align-self: center;
    }
 
     /* contact page */
 
-    #schedule-price {
-        flex-direction: column;
+    #form {
+        width: 80%;
+        align-self: center;
     }
 
-    #schedule-price th,  #schedule-price td {
-        font-size: 80%;
+    #address-form {
+        flex-direction: column;
+        margin: 0 10px;
+    }   
+
+    #address {
+        margin-bottom: 30px;
+    }
+   
+    #input-container {
+        flex-direction: column;
+        
+    }
+   
+    .text-input {
+        margin-top: 9px;
+    }
+
+    #form textarea {
+        width: 100%;
     }
 
 } 
