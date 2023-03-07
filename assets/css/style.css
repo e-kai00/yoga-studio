@@ -381,7 +381,7 @@ footer li {
 
 /* Media queries */
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 460px) {
 
     #logo {
         font-size: 150%;
@@ -507,4 +507,73 @@ footer li {
     #form textarea {
         width: 100%;
     }
+
 }
+
+@media screen and (max-width: 768px) {
+    #cover-text {
+        left: 45px;
+        
+        width: 400px;
+        bottom: 60px;
+    }
+
+    #info-section {
+        height: 650px;
+    }
+     
+    #info-left, #info-right {
+        height: 600px;
+    }
+
+    #info-right {
+        background: url('../images/yoga-class.jpg') no-repeat center center;       
+    }
+
+    /* past events */
+
+    #events-section {
+        height: 1600px;
+    }
+
+    .event-info {
+        display: block;
+        height: 600px;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .container-retreat {
+        width: 100%;
+        clear: both;
+
+    }
+
+    .retreat-text {
+        width: 100%;
+        text-align: justify;
+        padding: 0 10px;
+    }
+
+    .retreat-photo {
+        width: 300px;
+        height: 200px;
+    }    
+
+    /* contact page */
+
+    #schedule-price {
+        flex-direction: column;
+    }
+
+    #schedule-price th,  #schedule-price td {
+        font-size: 80%;
+    }
+
+}
+
+
+
+
+
+/* @media screen and (max-width: 1200px) */
