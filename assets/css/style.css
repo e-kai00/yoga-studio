@@ -455,6 +455,23 @@ footer li {
 /* Screens 768px and down */
 
 @media screen and (max-width: 768px) {
+
+    /* menu */
+    
+    #menu {
+        clear: both;
+        float: none;
+        margin: 0 auto;
+    }
+
+    #menu li {
+        margin: 0 20px;
+    }
+
+    #menu a {
+        font-size: 110%;
+    }
+
     #cover-text {
         left: 5%;        
         width: 350px;
@@ -559,14 +576,21 @@ footer li {
         font-size: 150%;
         line-height: 55px;
         margin-left: 5px;
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     #menu {
-        background: none;
-        line-height: 55px;
-        margin-right: 5px;
-        padding: 0;
+        clear: both;
+        float: none;
+        margin: 0 auto;
+    }
+
+    #menu li {
+        margin: 0 20px;
+    }
+
+    #menu a {
+        font-size: 110%;
     }
 
     #cover-text {
