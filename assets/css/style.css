@@ -137,7 +137,6 @@ body {
 
 #events-section {
     height: 800px;
-    margin-top: 30px;
 }
 
 .event-info {
@@ -150,11 +149,14 @@ body {
 .event-photo {
     width: 400px;
     height: 300px;
+    margin-left: 1%;
 }
 
 .event-text  {
     width: 60%;
     height: fit-content;    
+    padding: 0 2%;
+    text-align: justify;
 }
 
 .event-text h3 {
@@ -165,6 +167,7 @@ body {
     font-family: Kalam, sans-serif;
     font-size: 90%;
     text-align: center;
+    margin-bottom: 2%;
 }
 
 /* Footer */
@@ -408,7 +411,7 @@ footer li {
     /* sections: info and past events */
 
     #info-section {
-        height: fit-content;
+        height: 500px;
     }
 
     .section-headings {
@@ -438,32 +441,29 @@ footer li {
     /* events */
 
     #events-section {
-        height: 1900px;
-    }
-
-    .event-info {
-        display: block;
-        height: 600px;
-        width: 100%;
+        height:1500px;
         margin-top: 30px;
     }
 
-    .container-retreat {
-        width: 100%;
-        clear: both;
-
+    .event-info {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
     }
 
-    .retreat-text {
+    .event-text {
         width: 100%;
-        text-align: justify;
-        padding: 0 10px;
+        margin-top: 20px;
+        text-align: justify;        
     }
 
-    .retreat-photo {
-        width: 300px;
-        height: 200px;
+    .event-photo {
+        align-self: center;
+        margin-top: 20px;
     }    
+    
 
         /* about page */
 
@@ -511,67 +511,7 @@ footer li {
 
 }
 
-@media screen and (max-width: 768px) {
-    #cover-text {
-        left: 45px;
-        
-        width: 400px;
-        bottom: 60px;
-    }
 
-    #info-section {
-        height: 650px;
-    }
-     
-    #info-left, #info-right {
-        height: 600px;
-    }
-
-    #info-right {
-        background: url('../images/yoga-class.jpg') no-repeat center center;       
-    }
-
-    /* past events */
-
-    #events-section {
-        height: 1600px;
-    }
-
-    .event-info {
-        display: block;
-        height: 600px;
-        width: 100%;
-        margin-top: 30px;
-    }
-
-    .container-retreat {
-        width: 100%;
-        clear: both;
-
-    }
-
-    .retreat-text {
-        width: 100%;
-        text-align: justify;
-        padding: 0 10px;
-    }
-
-    .retreat-photo {
-        width: 300px;
-        height: 200px;
-    }    
-
-    /* contact page */
-
-    #schedule-price {
-        flex-direction: column;
-    }
-
-    #schedule-price th,  #schedule-price td {
-        font-size: 80%;
-    }
-
-}
 
 
 
