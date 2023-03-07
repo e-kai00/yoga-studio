@@ -386,6 +386,173 @@ footer li {
 
 /* Media queries */
 
+/* Screens 1080px and down */
+
+@media screen and (max-width: 1080px) {
+
+    /* main info section */
+
+    #info-section {
+        height: 700px;
+    }
+     
+    #info-left, #info-right {
+        height: 600px;
+    }
+
+    #info-text {
+        text-align: justify;
+        width: 90%;
+    }
+
+    #info-text h3 {
+        text-align: center;
+        margin-bottom: 2%;
+    }
+
+    #info-right {
+        background: url('../images/yoga-class.jpg') no-repeat center center;       
+    }
+
+    /* past events */
+
+    #events-section {
+        height:1100px;
+        margin-top: 30px;
+    }
+
+    .event-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .event-text {
+        width: 100%;
+        margin-top: 20px;
+        text-align: justify;        
+    }
+
+    .event-photo {
+        align-self: center;
+        margin-top: 20px;
+    }        
+
+    /* about page */
+        
+    #schedule-price {
+        flex-direction: column;
+        
+    }
+   
+   #price, #schedule {
+        align-self: center;
+   }
+}
+
+/* Screens 768px and down */
+
+@media screen and (max-width: 768px) {
+    #cover-text {
+        left: 5%;        
+        width: 350px;
+        bottom: 60px;
+    }
+
+    /* main info section */
+
+    #info-section {
+        height: 800px;
+    }
+     
+    #info-left, #info-right {
+        height: 600px;
+    }
+
+    #info-text {
+        text-align: justify;
+        width: 90%;
+    }
+
+    #info-text h3 {
+        text-align: center;
+        margin-bottom: 2%;
+    }
+
+    #info-right {
+        background: url('../images/yoga-class.jpg') no-repeat center center;       
+    }
+
+    /* past events */
+
+    #events-section {
+        height:1500px;
+        margin-top: 30px;
+    }
+
+    .event-info {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .event-text {
+        width: 100%;
+        margin-top: 20px;
+        text-align: justify;        
+    }
+
+    .event-photo {
+        align-self: center;
+        margin-top: 20px;
+    }        
+
+    /* about page */
+        
+    #schedule-price {
+        flex-direction: column;
+        
+    }
+   
+   #price, #schedule {
+    align-self: center;
+   }
+
+    /* contact page */
+
+    #form {
+        width: 80%;
+        align-self: center;
+    }
+
+    #address-form {
+        flex-direction: column;
+        margin: 0 10px;
+    }   
+
+    #address {
+        margin-bottom: 30px;
+    }
+   
+    #input-container {
+        flex-direction: column;
+        
+    }
+   
+    .text-input {
+        margin-top: 9px;
+    }
+
+    #form textarea {
+        width: 100%;
+    }
+
+} 
+
 @media screen and (max-width: 460px) {
 
     #logo {
@@ -517,170 +684,7 @@ footer li {
 
 }
 
-/* screens 768px and down */
 
-@media screen and (max-width: 768px) {
-    #cover-text {
-        left: 5%;        
-        width: 350px;
-        bottom: 60px;
-    }
 
-    /* main info section */
 
-    #info-section {
-        height: 800px;
-    }
-     
-    #info-left, #info-right {
-        height: 600px;
-    }
-
-    #info-text {
-        text-align: justify;
-        width: 90%;
-    }
-
-    #info-text h3 {
-        text-align: center;
-        margin-bottom: 2%;
-    }
-
-    #info-right {
-        background: url('../images/yoga-class.jpg') no-repeat center center;       
-    }
-
-    /* past events */
-
-    #events-section {
-        height:1400px;
-        margin-top: 30px;
-    }
-
-    .event-info {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        margin-top: 0;
-    }
-
-    .event-text {
-        width: 100%;
-        margin-top: 20px;
-        text-align: justify;        
-    }
-
-    .event-photo {
-        align-self: center;
-        margin-top: 20px;
-    }        
-
-    /* about page */
-        
-    #schedule-price {
-        flex-direction: column;
-        
-    }
-   
-   #price, #schedule {
-    align-self: center;
-   }
-
-    /* contact page */
-
-    #form {
-        width: 80%;
-        align-self: center;
-    }
-
-    #address-form {
-        flex-direction: column;
-        margin: 0 10px;
-    }   
-
-    #address {
-        margin-bottom: 30px;
-    }
-   
-    #input-container {
-        flex-direction: column;
-        
-    }
-   
-    .text-input {
-        margin-top: 9px;
-    }
-
-    #form textarea {
-        width: 100%;
-    }
-
-} 
-
-/* screens 1080px and down */
-
-@media screen and (max-width: 1080px) {
-
-    /* main info section */
-
-    #info-section {
-        height: 700px;
-    }
-     
-    #info-left, #info-right {
-        height: 600px;
-    }
-
-    #info-text {
-        text-align: justify;
-        width: 90%;
-    }
-
-    #info-text h3 {
-        text-align: center;
-        margin-bottom: 2%;
-    }
-
-    #info-right {
-        background: url('../images/yoga-class.jpg') no-repeat center center;       
-    }
-
-    /* past events */
-
-    #events-section {
-        height:1100px;
-        margin-top: 30px;
-    }
-
-    .event-info {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin-top: 0;
-    }
-
-    .event-text {
-        width: 100%;
-        margin-top: 20px;
-        text-align: justify;        
-    }
-
-    .event-photo {
-        align-self: center;
-        margin-top: 20px;
-    }        
-
-    /* about page */
-        
-    #schedule-price {
-        flex-direction: column;
-        
-    }
-   
-   #price, #schedule {
-        align-self: center;
-   }
-}
 
