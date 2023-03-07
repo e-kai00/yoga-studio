@@ -383,6 +383,7 @@ footer li {
     border-radius: 5px;
 }
 
+
 /* Media queries */
 
 @media screen and (max-width: 460px) {
@@ -462,8 +463,7 @@ footer li {
     .event-photo {
         align-self: center;
         margin-top: 20px;
-    }    
-    
+    }        
 
         /* about page */
 
@@ -476,14 +476,20 @@ footer li {
         width: 95%;
         padding-right: 5%;        
     }
+    
 
     #schedule-price {
         flex-direction: column;
+        
     }
 
     #schedule-price th,  #schedule-price td {
         font-size: 80%;
     }
+
+   #price, #schedule {
+    align-self: center;
+   }
 
     /* contat page */
 
