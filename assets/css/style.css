@@ -645,7 +645,7 @@ footer li {
 
     #info-section {
         height: 600px;
-        margin-top: 0;
+        margin-top: 40px;        
     }
 
     .section-headings {
@@ -750,4 +750,29 @@ footer li {
         width: 100%;
     }
 
+}
+
+/* screens 370px and down */
+
+@media screen and (max-width: 370px) {
+
+    #info-section {
+        height: 700px;
+    }
+
+    #events-section {
+        height: 1750px;
+    }
+
+    .section-headings {
+        font-size: 130%;
+    }
+    
+    #info-text h3 {
+        font-size: 90%;
+    }
+
+    .event-text h3 {
+        font-size: 90%;
+    }
 }
