@@ -128,6 +128,18 @@ body {
     padding-top: 20px;
 }
 
+#info-text a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+    font-style: oblique;
+    font-size: 90%;
+}
+
+#info-text a:hover {
+    text-decoration: underline;
+}
+
 .section-headings {
     text-align: center;
     font-size: 200%;
