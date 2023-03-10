@@ -365,6 +365,10 @@ footer li {
     color: #fafafa;
 }
 
+#google-map iframe {
+    width: 100%;
+}
+
 /* Thank you page */
 
 #thanks {
