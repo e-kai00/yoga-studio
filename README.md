@@ -57,6 +57,9 @@ The website is targeted towards people focused on a healthy lifestyle who look f
     + Provides details about the studio: instructors introduction, timetable and type of the classes, prices.
     + Aims to answer key questions of potential students as well as keep current students updated.
 
+![Instructors](/assets/images/readme-img/about-teachers.jpg)
+![About page](/assets/images/readme-img/about-schedule.jpg)
+
 <br> 
 
 + __Contact page__ 
