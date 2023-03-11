@@ -6,7 +6,7 @@
 
 Sattva studio offers yoga classes for students of all levels of experience. The goal of the website is to reach more potential students in the area and build credibility.
 
-Users of the website will find all the information they need to join the classes: schedule, information about teachers, contacts and studio location as well as prices and recent past events held by the school.
+Users of the website will find all the information they need to join the classes: schedule, teachers introduction, contacts, studio location as well as prices and recent past events held by the school.
 
 The website is targeted towards people focused on a healthy lifestyle who look for guided yoga classes and a supportive local community.
 
@@ -30,7 +30,7 @@ The live link to the website - [Sattva Studio](https://e-kai00.github.io/yoga-st
 <br> 
 
 + __Header__ 
-    + The header includes a photograph with text overlay.
+    + Includes a photograph with text overlay.
     + The header explains that the studio is for students of any level of experience and invites to join the classes.
 
 ![Header](/assets/images/readme-img/photo-text-overlay.webp)    
@@ -40,7 +40,7 @@ The live link to the website - [Sattva Studio](https://e-kai00.github.io/yoga-st
 + __Welcome section__
     + Explains how easy it is to join the classes.
     + Links to the schedule section on the next page.
-    + The section addresses typical questions of potential new students and helps easily navigate to the  needed information.
+    + The section addresses typical questions of potential new students and helps easily navigate to the  detailed information.
 
 ![Welcome](/assets/images/readme-img/Info-section.webp)
 
@@ -66,7 +66,7 @@ The live link to the website - [Sattva Studio](https://e-kai00.github.io/yoga-st
 
 + __Contact page__ 
     + Provides complete information about the location of the studio and the ways the user can get in touch.
-    + The Contact form has validation and allows the user to send messages, which can be used for requesting info, sharing feedback, requesting a call etc. The user will be asked to submit their name, email address, subject (optional) and message.
+    + The Contact form has validation and allows the user to send messages, which can be used for requesting information, sharing feedback, requesting a call etc. The user will be asked to submit their name, email address, subject (optional) and message.
 
 ![Form](/assets/images/readme-img/contact-form.webp)
 
@@ -75,7 +75,7 @@ The live link to the website - [Sattva Studio](https://e-kai00.github.io/yoga-st
 ## Testing
 
 + I tested that this page works in different browsers: Chrome, Firefox, Internet Explorer/ Edge
-+ I confirmed that this project is responsive, looks good and functions on all standart screen sizes using the DevTools device toolbar.
++ I confirmed that this project is responsive, looks good and functions on all standard  screen sizes using the DevTools device toolbar.
 + I have confirmed that the form works: requires entries in ... fields, will only accept an email in the email field, and send button works.
 
 ### Validator Testing
