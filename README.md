@@ -76,7 +76,7 @@ The live link to the website - [Sattva Studio](https://e-kai00.github.io/yoga-st
 
 + I tested that this page works in different browsers: Chrome, Firefox, Internet Explorer/ Edge
 + I confirmed that this project is responsive, looks good and functions on all standard  screen sizes using the DevTools device toolbar.
-+ I have confirmed that the form works: requires entries in ... fields, will only accept an email in the email field, and send button works.
++ I have confirmed that the form works: requires entries in name, email and message fields (subject field is optional), will only accept an email in the email field, and send button works.
 
 ### Validator Testing
 
