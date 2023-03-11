@@ -10,6 +10,8 @@ Users of the website will find all the information they need to join the classes
 
 The website is targeted towards people focused on a healthy lifestyle who look for guided yoga classes and a supportive local community.
 
+The live link to the website - [Sattva Studio](https://e-kai00.github.io/yoga-studio/)
+
 <br>
 
 ![Responsive Mockup](/assets/images/readme-img/mockup-screenshot.webp)
