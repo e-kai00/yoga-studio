@@ -21,7 +21,7 @@ The live link to the website - [Sattva Studio](https://e-kai00.github.io/yoga-st
 <br>
 
 + __Navigation__
-    + The navigation shows the studio logo and name in the left corner: Sattva that links to the home page.
+    + Shows the studio logo and name in the left corner: Sattva that links to the home page.
     + The other navigation links are featured to the right: Home, About, Contact which link to different website pages.
     + The navigation is consistent across all webpages which allows the user to easily navigate from one page to another.
 
@@ -29,7 +29,7 @@ The live link to the website - [Sattva Studio](https://e-kai00.github.io/yoga-st
 
 <br> 
 
-+ __Home page__ 
++ __Header__ 
     + The header includes a photograph with text overlay.
     + The header explains that the studio is for students of any level of experience and invites to join the classes.
 
@@ -40,7 +40,7 @@ The live link to the website - [Sattva Studio](https://e-kai00.github.io/yoga-st
 + __Welcome section__
     + Explains how easy it is to join the classes.
     + Links to the schedule section on the next page.
-    + The section addresses typical questions of potential new students.
+    + The section addresses typical questions of potential new students and helps easily navigate to the  needed information.
 
 ![Welcome](/assets/images/readme-img/Info-section.webp)
 
@@ -56,7 +56,7 @@ The live link to the website - [Sattva Studio](https://e-kai00.github.io/yoga-st
  <br>
 
 + __About page__
-    + Provides details about the studio: instructors introduction, timetable and type of the classes, prices.
+    + Provides details about the studio: instructors introduction, prices, timetable and type of the classes.
     + Aims to answer key questions of potential students as well as keep current students updated.
 
 ![Instructors](/assets/images/readme-img/about-teachers.jpg)
