@@ -16,46 +16,51 @@ body {
     color: #3a3b3b;
 }
 
-/* logo and navigation */
+nav {
+    display: flex;
+    position: relative;
+} 
+
+nav > a {
+    text-decoration: none;
+    flex-grow: 1;
+}
 
 #logo {
     font-family: "Montserrat Alternates", sans-serif;
     letter-spacing: 2px;
     color: #3a3b3b;
-    font-size: 220%;
+    font-size: 2.2rem;
     text-transform: uppercase;
-    float: left;
     margin-left: 20px;
 }
 
-#menu,
+.menu,
 #logo {
     line-height: 75px;
 }
 
-#menu {
+.menu {
     font-weight: 600;
-    letter-spacing: 2px;
-    background-color: #e0ece4;
-    margin-right: 20px;
-    padding: 0 20px;
-    float: right;
-    text-align: center;
+    letter-spacing: 2px;   
+    flex-grow: 2;
 }
 
-#menu li {
+.menu li {
     list-style-type: none;
     margin: 0 10px;
     display: inline-block;
+    padding-inline: 1em;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: inherit;
+    font-size: 1.2rem;
 
 }
 
-#menu a:hover {
+.menu a:hover {
     border-bottom: 1px solid #3a3b3b;
 }
 
@@ -63,23 +68,22 @@ body {
     border-bottom: 1px solid #3a3b3b;
 }
 
-/* Home page */
-/* hero image and cover text */
+/*---------------------------- Home page */
 
-#hero-outer {
+.hero-outer {
     height: 400px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-#hero-image {
+.hero-image {
     height: 400px;
     width: 100%;
     background: url('../images/hero-img2.webp') no-repeat bottom;
 }
 
-#cover-text {
+.cover-text {
     font-family: Kalam, sans-serif;
     font-size: 90%;
     text-align: center;
@@ -93,8 +97,6 @@ body {
     position: absolute;
 
 }
-
-/* main info section */
 
 #info-section {
     height: 600px;
@@ -146,7 +148,6 @@ body {
     padding: 20px 0;
 }
 
-/* past events section */
 
 #events-section {
     height: 800px;
@@ -183,7 +184,7 @@ body {
     margin-bottom: 2%;
 }
 
-/* footer */
+/*---------------------------- Footer */
 
 footer {
     height: 200px;
@@ -191,6 +192,10 @@ footer {
     background-color: #e0ece4;
     text-align: center;
     line-height: 45px;
+}
+
+footer > div > * {
+    padding-block: .2em;
 }
 
 footer hr {
@@ -210,17 +215,16 @@ footer i {
 
 footer li {
     display: inline;
+    margin-inline: .3em;
 }
+
 
 #social-media i {
-    font-size: 150%;
+    font-size: 1.8rem;
     color: #3a3b3b;
-    margin: 1% 2%;
-    padding: 0;
 }
 
-/* About page */
-/* instructors section */
+/*---------------------------- About page */
 
 #instrcutors {
     clear: both;
@@ -248,8 +252,6 @@ footer li {
     margin-left: 50px;
 }
 
-/* studio image */
-
 #studio-pic {
     width: 900px;
     height: 300px;
@@ -257,8 +259,6 @@ footer li {
     margin: 0 auto;
     border-radius: 5px;
 }
-
-/* schedule and prices section */
 
 #schedule-price {
     display: flex;
@@ -272,8 +272,6 @@ footer li {
     padding: 20px 0;
     text-decoration: underline;
 }
-
-/* schedule */
 
 #schedule-table th,
 #schedule-table td {
@@ -289,26 +287,22 @@ footer li {
     font-size: 90%;
 }
 
-/* prices */
-
 #price-table td {
     border-bottom: 1px solid #3a3b3b;
     font-size: 90%;
 }
 
 
-/* Contact page */
+/*---------------------------- Contact page */
 
 #address-form {
     clear: both;
-    margin-left: 20px;
-    padding-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-block: 6em 4em;
 }
 
-/* address */
 
 #address {
     line-height: 25px;
@@ -319,7 +313,7 @@ footer li {
     margin-bottom: 9px;
 }
 
-/* contact us form */
+/*---------------------------- contact us form */
 
 #input-container {
     display: flex;
@@ -369,7 +363,7 @@ footer li {
     width: 100%;
 }
 
-/* Thank you page */
+/*---------------------------- Thank you page */
 
 #thanks {
     padding: 80px 0;
@@ -405,13 +399,9 @@ footer li {
     color: #e0ece4;
 }
 
-/* Media queries */
-/* screens 1080px and down */
+/*---------------------------- Media queries */
 
-@media screen and (max-width: 1080px) {
-
-    /* Home page */
-    /* main info section */
+@media screen and (max-width: 1080px) {    
 
     #info-section {
         height: 700px;
@@ -435,8 +425,6 @@ footer li {
     #info-right {
         background: url('../images/yoga-class.jpg') no-repeat center center;
     }
-
-    /* past events */
 
     #events-section {
         height: 1100px;
@@ -462,8 +450,6 @@ footer li {
         margin-top: 20px;
     }
 
-    /* About page */
-
     #schedule-price {
         flex-direction: column;
 
@@ -479,26 +465,24 @@ footer li {
 
 @media screen and (max-width: 768px) {
 
-    /* Home page */
-    /* menu */
-
-    #menu {
-        clear: both;
-        float: none;
-        margin: 0 auto;
+    .menu {
+     flex-grow: initial;   
     }
 
-    #menu li {
+    .menu li {
         margin: 0 20px;
+        padding-inline: initial;
+    }
+
+    .menu a {
+        font-size: 1rem;
     }
     
-    #cover-text {
+    .cover-text {
         left: 5%;
         width: 350px;
         bottom: 60px;
     }
-
-    /* main info section */
 
     #info-section {
         height: 800px;
@@ -519,11 +503,13 @@ footer li {
         margin-bottom: 2%;
     }
 
+    #info-text p {
+        font-size: .9rem;
+    }
+
     #info-right {
         background: url('../images/yoga-class.jpg') no-repeat center center;
     }
-
-    /* past events */
 
     #events-section {
         height: 1500px;
@@ -573,9 +559,9 @@ footer li {
         margin: 0 10px;
     }
 
-    #address {
-        margin-bottom: 30px;
-        margin-left: 20px;
+    #address {        
+        margin-inline-start: 1.8em;
+        margin-block: 5em 3em;
     }
 
     #input-container {
@@ -597,7 +583,13 @@ footer li {
 
 @media screen and (max-width: 605px) {
 
-    /* Home page */
+    nav {
+        flex-direction: column;
+    }
+
+    .menu {
+        align-self: center;
+    }
 
     #info-section {
         height: 550px;
@@ -612,6 +604,10 @@ footer li {
         height: fit-content;
     }
 
+    #events-section p {
+        font-size: .9rem;
+    }
+
 }
 
 /* screens 460px and down */
@@ -619,45 +615,27 @@ footer li {
 @media screen and (max-width: 460px) {
     
     #logo {
-        font-size: 150%;
+        font-size: 2rem;
         line-height: 55px;
         margin-left: 5px;
         margin-top: 20px;
     }
-
-    #menu {
-        clear: both;
-        float: none;
-        margin: 0 auto;
-    }
-
-    #menu li {
+  
+    .menu li {
         margin: 0 10px;
     }
 
-    #menu a {
-        font-size: 90%;
-    }
-
-    /* Home page */
-
-    #hero-outer {
+    .hero-outer {
         height: 300px;
     }
 
-    #hero-image {
+    .hero-image {
         height: 300px;
     }
 
-    #cover-text {
-        left: 0;
-        margin-left: 10px;
-        width: 250px;
-        bottom: 40px;
-        font-size: 80%;
+    .cover-text {        
+        display: none;
     }
-
-    /* main info section */
 
     #info-section {
         height: 600px;
@@ -687,8 +665,6 @@ footer li {
     #info-right {
         display: none;
     }
-
-    /* past events section */
 
     #events-section {
         height: 1600px;
@@ -764,6 +740,10 @@ footer li {
 
     #form textarea {
         width: 100%;
+    }
+
+    footer hr {
+        display: none;
     }
 
 }
